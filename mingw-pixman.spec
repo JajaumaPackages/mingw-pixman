@@ -2,7 +2,7 @@
 
 Name:           mingw-pixman
 Version:        0.34.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        MinGW Windows Pixman library
 
 License:        MIT
@@ -103,6 +103,9 @@ find $RPM_BUILD_ROOT -name "*.la" -delete
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 0.34.0-2
+- Rebuild with GCC 5.4.0
+
 * Tue May 03 2016 Kalev Lember <klember@redhat.com> - 0.34.0-1
 - Update to 0.34.0
 
